@@ -6,13 +6,13 @@ class TaskDao {
         private var task_count = 0
         private var list_tasks : MutableList<TaskEntry> = mutableListOf<TaskEntry>()
 
-        init {
+        /*init {
             for( i in 1..10){
 
                 val task = TaskEntry(++task_count,"Task $i",1,System.currentTimeMillis())
                 list_tasks.add(0,task)
             }
-        }
+        }*/
     }
 
 
